@@ -37,7 +37,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\n/// @title ERC-721 Non-Fungible Token Standard, optional metadata extension\r\n/// @dev See https://eips.ethereum.org/EIPS/eip-721\r\n///  Note: the ERC-165 identifier for this interface is 0x5b5e139f.\r\ninterface IERC721Metadata {\r\n\r\n    function name() external view returns (string memory _name);\r\n\r\n    function symbol() external view returns (string memory _symbol);\r\n\r\n    // function tokenURI(uint256 _tokenId) external view returns (string);\r\n}",
-  "sourcePath": "C:\\Users\\venuh\\nft-projects\\nft-marketplace-starter-kit-main\\nft-marketplace-starter-kit-main\\src\\contracts\\interfaces\\IERC721Metadata.sol",
+  "sourcePath": "C:\\Users\\venuh\\nft-projects\\K-Bird\\src\\contracts\\interfaces\\IERC721Metadata.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/interfaces/IERC721Metadata.sol",
     "exportedSymbols": {
@@ -366,7 +366,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.6",
-  "updatedAt": "2022-03-29T16:40:32.041Z",
+  "updatedAt": "2022-04-13T17:13:38.056Z",
   "devdoc": {
     "details": "See https://eips.ethereum.org/EIPS/eip-721  Note: the ERC-165 identifier for this interface is 0x5b5e139f.",
     "kind": "dev",
